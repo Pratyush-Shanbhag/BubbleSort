@@ -6,10 +6,10 @@ using namespace std;
 void BubbleSort::bubbleSort() {
     int temp;
     bool swap;
-cout << arr[0] << endl;
- /*   for(int i = 0; i < 10; i ++) {
+    int i, j;
+    for(i = 0; i < 10; i++) {
         swap = false;
-        for(int j = 0; i < 10-i-1; j++) {
+        for(j = 0; j < 10-i-1; j++) {
             if(arr[j] > arr[j+1]) {
                 temp = arr[j];
                 arr[j] = arr[j+1];
@@ -19,7 +19,7 @@ cout << arr[0] << endl;
         }
         if(!swap)
             break;
-    }*/
+    }
 }
 
 void BubbleSort::displayArray() {
