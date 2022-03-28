@@ -5,16 +5,21 @@ using namespace std;
 
 void BubbleSort::bubbleSort() {
     int temp;
-
-    for(int i = 0; i < 9; i ++) {
-        for(int j = 0; i < 9 - i; j++) {
+    bool swap;
+cout << arr[0] << endl;
+ /*   for(int i = 0; i < 10; i ++) {
+        swap = false;
+        for(int j = 0; i < 10-i-1; j++) {
             if(arr[j] > arr[j+1]) {
                 temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
+                swap = true;
             }
         }
-    }
+        if(!swap)
+            break;
+    }*/
 }
 
 void BubbleSort::displayArray() {
